@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>mqtt_simple_console_ui</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Cake.Core" Version="2.2.0" />
+    <PackageReference Include="Cake.Figlet" Version="2.0.1" />
+	  <PackageReference Include="MQTTnet" Version="4.1.0.247" />
+	  <PackageReference Include="MQTTnet.Extensions.ManagedClient" Version="4.1.0.247" />
+	  <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />  </ItemGroup>
+
+</Project>

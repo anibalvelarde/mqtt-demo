@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ui", "ui", "{E44D1B79-E633-
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqtt-console-ui", "ui\console\mqtt-console-ui.csproj", "{4430D8E9-6EA9-477A-BD07-268F21B3515F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mqtt-simple-console-ui", "ui\simple-console\mqtt-simple-console-ui.csproj", "{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,8 +28,13 @@ Global
 		{4430D8E9-6EA9-477A-BD07-268F21B3515F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4430D8E9-6EA9-477A-BD07-268F21B3515F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4430D8E9-6EA9-477A-BD07-268F21B3515F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4430D8E9-6EA9-477A-BD07-268F21B3515F} = {E44D1B79-E633-458A-B855-3CF58A5F0924}
+		{37D73DEC-26C9-41F6-A4D3-4DA54E4D79C6} = {E44D1B79-E633-458A-B855-3CF58A5F0924}
 	EndGlobalSection
 EndGlobal
